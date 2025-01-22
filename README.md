@@ -29,13 +29,13 @@ Run the app:
 - (GET request: All items)
 
 ```bash
-   127.0.0.1/api/v1/civic-api/
+   127.0.0.1:3000/api/v1/civic-api/
 ```
 
 - (GET request: A specific item)
 
 ```bash
-   127.0.0.1/api/v1/civic-api/<item-id>
+   127.0.0.1:3000/api/v1/civic-api/<item-id>
 ```
 
 - (POST: Add an item)
@@ -52,7 +52,7 @@ Run the app:
 - (PATCH request: Update an item)
 
 ```bash
-   127.0.0.1/api/v1/civic-api/<item-id>
+   127.0.0.1:3000/api/v1/civic-api/<item-id>
 
    #Body
     {
@@ -63,7 +63,7 @@ Run the app:
 - (DELETE request: Remove an item)
 
 ```bash
-   127.0.0.1/api/v1/civic-api/<item-id>
+   127.0.0.1:3000/api/v1/civic-api/<item-id>
 ```
 
 - The .env file contains all the db logins
